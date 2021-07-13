@@ -1,12 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
 <body>
-    
+    <div class="container">
+        <form name="formquiz">
+            <!--      Primera pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Cuál es la segunda lengua más hablada del mundo?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="ingles-field">Inglés</label>
+                        <input id="ingles-field" type="radio" name="segundamas" value="ingles">
+                    </div>
+                    <div class="opt2">
+                        <label for="chino-field">Chino</label>
+                        <input id="chino-field" type="radio" name="segundamas" value="chino">
+                    </div>
+                    <div class="opt3">
+                        <label for="español-field">Español</label>
+                        <input id="español-field" type="radio" name="segundamas" value="español">
+                    </div>
+                    <div class="opt4">
+                        <label for="indio-field">Indio</label>
+                        <input id="indio-field" type="radio" name="segundamas" value="indio">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Segunda pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿En qúe ciudad española tiene una estatua el cineasta estadounidense Woody Allen?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="oviedo-field">En Oviedo</label>
+                        <input id="oviedo-field" type="radio" name="cine" value="oviedo">
+                    </div>
+                    <div class="opt2">
+                        <label for="sansebastian-field">En San Sebastian</label>
+                        <input id="sansebastian-field" type="radio" name="cine" value="sansebastian">
+                    </div>
+                    <div class="opt3">
+                        <label for="puerto-field">En el Puerto de Santa Maria</label>
+                        <input id="puerto-field" type="radio" name="cine" value="puerto">
+                    </div>
+                    <div class="opt4">
+                        <label for="sitges-field">En Sitges</label>
+                        <input id="sitges-field" type="radio" name="cine" value="sitges">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Tercera pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Qué ciudad espanola se declaró "un Cantón" durante la Primera República?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="cartagena-field">Cartagena</label>
+                        <input id="cartagena-field" type="radio" name="canton" value="cartagena">
+                    </div>
+                    <div class="opt2">
+                        <label for="soria-field">Soria</label>
+                        <input id="soria-field" type="radio" name="canton" value="soria">
+                    </div>
+                    <div class="opt3">
+                        <label for="ciudadreal-field">Ciudad Real</label>
+                        <input id="ciudadreal-field" type="radio" name="canton" value="ciudadreal">
+                    </div>
+                    <div class="opt4">
+                        <label for="alicante-field">Alicante</label>
+                        <input id="alicante-field" type="radio" name="canton" value="alicante">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Cuarta pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Qué fiesta española protagoniza la novela 'Fiesta', de Ernest Hemingway?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="tomate-field">La Tomatina</label>
+                        <input id="tomate-field" type="radio" name="novela" value="tomate">
+                    </div>
+                    <div class="opt2">
+                        <label for="falla-field">Las Fallas de Valencia</label>
+                        <input id="falla-field" type="radio" name="novela" value="falla">
+                    </div>
+                    <div class="opt3">
+                        <label for="sevilla-field">La Feria de Abril de Sevilla</label>
+                        <input id="sevilla-field" type="radio" name="novela" value="sevilla">
+                    </div>
+                    <div class="opt4">
+                        <label for="sanfermin-field">San Fermín</label>
+                        <input id="sanfermin-field" type="radio" name="novela" value="sanfermin">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Quinta pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿En qué pueblo vasco está el restautante de Karlos Arguiñano?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="mundaka-field">Mundaka</label>
+                        <input id="mundaka-field" type="radio" name="vasco" value="mundaka">
+                    </div>
+                    <div class="opt2">
+                        <label for="lekeitio-field">Lekeitio</label>
+                        <input id="lekeitio-field" type="radio" name="vasco" value="lekeitio">
+                    </div>
+                    <div class="opt3">
+                        <label for="elorrio-field">Elorrio</label>
+                        <input id="elorrio-field" type="radio" name="vasco" value="elorrio">
+                    </div>
+                    <div class="opt4">
+                        <label for="zarauz-field">Zarauz</label>
+                        <input id="zarauz-field" type="radio" name="vasco" value="zarauz">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Sexta pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Qué ciudad castellana planeó crear su propia red Wi-Fi y recibio el 'Óscar tecnológico' por ello?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="zamora-field">Zamora</label>
+                        <input id="zamora-field" type="radio" name="wifi" value="zamora">
+                    </div>
+                    <div class="opt2">
+                        <label for="avila-field">Ávila</label>
+                        <input id="avila-field" type="radio" name="wifi" value="avila">
+                    </div>
+                    <div class="opt3">
+                        <label for="segovia-field">Segovia</label>
+                        <input id="segovia-field" type="radio" name="wifi" value="segovia">
+                    </div>
+                    <div class="opt4">
+                        <label for="toledo-field">Toledo</label>
+                        <input id="toledo-field" type="radio" name="wifi" value="toledo">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Séptima pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Como se conoce la frontera entre España y Portugal?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="linea-field">La Línea</label>
+                        <input id="linea-field" type="radio" name="frontera" value="linea">
+                    </div>
+                    <div class="opt2">
+                        <label for="mostacho-field">El Mostacho</label>
+                        <input id="mostacho-field" type="radio" name="frontera" value="mostacho">
+                    </div>
+                    <div class="opt3">
+                        <label for="raya-field">La Raya</label>
+                        <input id="raya-field" type="radio" name="frontera" value="raya">
+                    </div>
+                    <div class="opt4">
+                        <label for="toalla-field">La Toalla</label>
+                        <input id="toalla-field" type="radio" name="frontera" value="toalla">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Octava pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿En qué Comunidad Autónoma se encuentra la Playa de Gulpiyuri, considerada la más pequeña del mundo?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="canarias-field">Canarias</label>
+                        <input id="canarias-field" type="radio" name="playa" value="canarias">
+                    </div>
+                    <div class="opt2">
+                        <label for="asturias-field">Asturias</label>
+                        <input id="asturias-field" type="radio" name="playa" value="asturias">
+                    </div>
+                    <div class="opt3">
+                        <label for="madrid-field">Comunidad de Madrid</label>
+                        <input id="madrid-field" type="radio" name="playa" value="madrid">
+                    </div>
+                    <div class="opt4">
+                        <label for="baleares-field">Islas baleares</label>
+                        <input id="baleares-field" type="radio" name="playa" value="baleares">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Novena pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Qué ciudad está más alta sobre el nivel del mar?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="albacete-field">Albacete</label>
+                        <input id="albacete-field" type="radio" name="masalta" value="albacete">
+                    </div>
+                    <div class="opt2">
+                        <label for="madrid-field">Madrid</label>
+                        <input id="madrid-field" type="radio" name="masalta" value="madrid">
+                    </div>
+                    <div class="opt3">
+                        <label for="malaga-field">Málaga</label>
+                        <input id="malaga-field" type="radio" name="masalta" value="malaga">
+                    </div>
+                    <div class="opt4">
+                        <label for="huesca-field">Huesca</label>
+                        <input id="huesca-field" type="radio" name="masalta" value="huesca">
+                    </div>
+                </div>
+            </fieldset>
+            <!--      Décima pregunta -->
+            <fieldset>
+                <div class="question">
+                    ¿Cuál es el punto más alto de la Península Ibérica?
+                </div>
+
+                <div class="answer">
+                    <div class="opt1">
+                        <label for="veleta-field">Veleta</label>
+                        <input id="veleta-field" type="radio" name="pico" value="veleta">
+                    </div>
+                    <div class="opt2">
+                        <label for="teide-field">Teide</label>
+                        <input id="teide-field" type="radio" name="pico" value="teide">
+                    </div>
+                    <div class="opt3">
+                        <label for="aneto-field">Aneto</label>
+                        <input id="aneto-field" type="radio" name="pico" value="aneto">
+                    </div>
+                    <div class="opt4">
+                        <label for="mulhacen-field">Mulhacén</label>
+                        <input id="mulhacen-field" type="radio" name="pico" value="mulhacen">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit">Comprobar datos</button>
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
